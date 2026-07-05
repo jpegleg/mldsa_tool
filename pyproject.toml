@@ -1,0 +1,20 @@
+[project]
+name = "mldsa-tool"
+version = "0.1.0"
+description = "ML-DSA key generation, file signing, and verification"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "cryptography>=49.0.0",
+]
+authors = [
+    {name = "Keegan Bowen", email = "carefuldata@protonmail.com"}
+]
+license = {text = "MIT"}
+keywords = ["mldsa", "ml-dsa", "dilithium", "mldsa-sign", "cryptography", "cli", "signatures", "mldsa-signatures", "mldsa-verify"]
+
+[project.urls]
+Homepage = "https://carefuldata.com"
+Documentation = "https://github.com/jpegleg/mldsa_tool/README.md"
+Repository = "https://github.com/jpegleg/mldsa_tool"
+Issues = "https://github.com/jpegleg/mldsa_tool/issues"
